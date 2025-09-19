@@ -1,0 +1,8 @@
+site_name: Teoría Cromodinámica Sincrónica (TCDS)
+site_description: Documentación oficial de la TCDS
+repo_url: https://github.com/geozunac3536-jpg/TCDS
+theme:
+  name: material
+  language: es
+nav:
+  - Inicio: index.md
