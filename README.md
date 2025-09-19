@@ -1,0 +1,2 @@
+# TCDS
+Teoría Cromodinámica Sincrónica 
