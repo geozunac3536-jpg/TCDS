@@ -1,0 +1,30 @@
+title: TCDS — Teoría Cromodinámica Sincrónica
+description: Documentación pública y auditable de TCDS sin datos sensibles.
+theme: null
+remote_theme: just-the-docs/just-the-docs
+color_scheme: nil
+logo: /assets/logo.png
+search_enabled: true
+aux_links:
+  "Repositorio en GitHub":
+    - "https://github.com/TU_USUARIO/TU_REPO"
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+just_the_docs:
+  favicon_ico: /assets/favicon.ico
+  nav_external_links_new_tab: true
+  collections:
+    docs:
+      output: true
+      permalink: /:collection/:path/
+  show_toc: true
+  heading_anchors: true
+  search:
+    button: true
+    tokenizer_separator: /[\s/]+/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
