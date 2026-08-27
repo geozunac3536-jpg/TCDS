@@ -1,0 +1,61 @@
+{
+  "axiomas_base": {
+    "A1": "φ = Q·Σ = constante — Invariancia de acoplamiento",
+    "A2": "LI(z) = Σ(z)/Σ₀ — Definición de índice de Locking",
+    "A3": "lim_{z→∞} LI(z) = 1 — Límite asintótico",
+    "A4": "H₀(z=0) = 73.04 — Condición de frontera medida"
+  },
+  "constantes_estructurales": {
+    "κ": -5.682181,
+    "n": 9.314138,
+    "z_star": 1.5,
+    "estatus": "Fijas, no ajustadas"
+  },
+  "ecuaciones_deterministas": {
+    "LI(z)": "exp(-z/z*)",
+    "H(z)": "H∞ + κ·[LI(z)]ⁿ",
+    "H∞": "H₀(z=0) — derivado de frontera"
+  },
+  "predicciones": [
+    {
+      "z": 0.0,
+      "LI(z)": 1.0,
+      "H_TCDS [km/s/Mpc]": 67.357819
+    },
+    {
+      "z": 0.5,
+      "LI(z)": 0.7165313105737893,
+      "H_TCDS [km/s/Mpc]": 72.78522577769797
+    },
+    {
+      "z": 1.0,
+      "LI(z)": 0.513417119032592,
+      "H_TCDS [km/s/Mpc]": 73.02857658628798
+    },
+    {
+      "z": 2.0,
+      "LI(z)": 0.26359713811572677,
+      "H_TCDS [km/s/Mpc]": 73.03997703445546
+    },
+    {
+      "z": 3.0,
+      "LI(z)": 0.1353352832366127,
+      "H_TCDS [km/s/Mpc]": 73.03999995383025
+    },
+    {
+      "z": 1100.0,
+      "LI(z)": 3.2914e-319,
+      "H_TCDS [km/s/Mpc]": 73.04
+    }
+  ],
+  "comparacion_estadistica": {
+    "chi2_TCDS": 72.71121267039419,
+    "chi2_LCDM": 29.677401650625622,
+    "BIC_TCDS": 76.87009575375386,
+    "BIC_LCDM": 32.4499903728654,
+    "delta_BIC": 44.42010538088846,
+    "N": 4,
+    "k_TCDS": 3,
+    "k_LCDM": 2
+  }
+}

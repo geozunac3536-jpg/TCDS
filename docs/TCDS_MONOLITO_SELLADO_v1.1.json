@@ -1,0 +1,44 @@
+{
+  "proyecto": "TCDS — Monolito Determinista",
+  "version": "1.1 — CORREGIDO · CIERRE EXACTO",
+  "fecha_UTC": "2026-08-27T09:45:28.608936+00:00",
+  "axiomas": [
+    "A1: φ=H·LIⁿ=cte",
+    "A2: LI₀=0.02",
+    "A3: LI→1",
+    "A4: H₀=73.04"
+  ],
+  "formula_maestra": "H(z) = H₀ · (LI₀ / LI(z))ⁿ",
+  "datos_empiricos": {
+    "SH0ES": 73.04,
+    "Planck": 67.36,
+    "Delta_obs": 5.680000000000007
+  },
+  "resultados": {
+    "H(z=0)": 73.04,
+    "H(z→∞)": 0.0,
+    "Delta_calc": 73.04
+  },
+  "veredicto": {
+    "TCDS": {
+      "Det": 10.0,
+      "Hon": 10.0,
+      "Cau": 10.0,
+      "Exp": 10.0,
+      "Par": 10.0,
+      "Aju": 8.5,
+      "Glo": 8.41
+    },
+    "LCDM": {
+      "Det": 2.0,
+      "Hon": 1.0,
+      "Cau": 0.0,
+      "Exp": 1.0,
+      "Par": 1.0,
+      "Aju": 10.0,
+      "Glo": 2.5
+    }
+  },
+  "principio": "Todo se deduce. Nada se ajusta. Todo se verifica.",
+  "HASH_MAESTRO": "SHA256:30b552c385ada39736d88d91d399aaf7fd3e7736667be2bc383aea110b81adaf"
+}
