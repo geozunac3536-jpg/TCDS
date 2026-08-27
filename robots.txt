@@ -1,0 +1,7 @@
+# robots.txt - TCDS Nucleo Absoluto
+
+User-agent: *
+Allow: /
+
+Disallow: /04_EVIDENCIAS_Y_HASH/
+Disallow: /*.json$
