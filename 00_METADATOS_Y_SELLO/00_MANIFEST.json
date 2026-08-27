@@ -1,0 +1,19 @@
+{
+  "proyecto": "TCDS - Nucleo Absoluto",
+  "version": "1.1 - CIERRE EXACTO",
+  "fecha_UTC": "2026-08-27T09:57:30Z",
+  "lugar": "Xalapa, Veracruz, Mexico",
+  "axiomas": 4,
+  "cierre_exacto": {
+    "H(z=0)": 73.04,
+    "H(z->inf)": 67.36,
+    "Delta_H0": 5.68
+  },
+  "formula_maestra": "H(z) = H0 * (LI0 / LI(z))^n",
+  "veredicto": {
+    "TCDS": 8.41,
+    "LCDM": 2.5
+  },
+  "archivos_importados": 62,
+  "hash_maestro": "SHA256:7e3db07232a5202f1af8cdfae2c0d1cb7f7bec3f3fdedcf45ac07ab9fef6046f"
+}

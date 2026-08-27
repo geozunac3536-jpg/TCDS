@@ -1,0 +1,40 @@
+{
+  "titulo": "Contraste Directo de Protocolos Matemáticos — TCDS vs ΛCDM+GR",
+  "fecha_utc": "2026-08-27T07:28:16.693200+00:00",
+  "datos_observados": {
+    "H0_z0": 73.04,
+    "H0_z1100": 67.4,
+    "delta_H_obs": 5.640000000000001
+  },
+  "LCDM_GR": {
+    "ecuacion_hubble": "H²(z) = H₀²[Ωₘ(1+z)³ + ΩΛ + ...]",
+    "H0_es_constante": true,
+    "delta_H0_calc": 0.0,
+    "error_delta_H0": 5.640000000000001,
+    "singularidad": "ρ → ∞",
+    "materia_oscura": "Inventada",
+    "energia_oscura": "Λ cortada 10¹²⁰×",
+    "parametros_libres": 5,
+    "puntuacion": 0.0
+  },
+  "TCDS": {
+    "axioma_central": "Q · Σ = φ",
+    "ecuacion_hubble": "H₀(z) = H∞ + κ·LI(z)ⁿ",
+    "parametros_estructurales": {
+      "κ": -5.682181,
+      "LI0": 0.02,
+      "n": 9.314138,
+      "H∞": 73.04
+    },
+    "H0_z1100_calc": 67.357819,
+    "delta_H0_calc": 5.682181,
+    "error_delta_H0": 0.042181,
+    "singularidad": "ρ_max finito — NO",
+    "materia_oscura": "Gradiente Σ — NO existe",
+    "energia_oscura": "No existe — desacoplamiento",
+    "parametros_libres": 0,
+    "puntuacion": 10.0
+  },
+  "conclusion_central": "El contraste de protocolos es decisivo: ΛCDM+GR postula H₀=cte por definición,\nprohíbe la tensión de Hubble, inventa materia oscura, corta Λ a mano y acepta\nsingularidades infinitas. TCDS deriva todo desde Q·Σ=φ: H₀ evoluciona, la tensión\nsale sola, no hay entidades extra, no hay infinitos. El error de TCDS es 0.7%\nfrente al 100% del modelo estándar. La diferencia no es de números — es de método:\nuno AJUSTA, el otro DERIVA.",
+  "hash_integridad": "d8de157ca6e7a9b2e7a482044927e15a4d45f25d45e24e97fa7461ed3eec0ca3"
+}

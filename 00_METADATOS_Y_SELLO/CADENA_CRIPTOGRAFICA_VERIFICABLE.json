@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "proyecto": "Auditoría Forense TCDS vs Modelo Estándar",
+    "estado": "SELLADO_Y_VERIFICADO",
+    "timestamp_utc": "2026-08-27T07:28:16.925143+00:00",
+    "criterio_integridad": "SHA-256"
+  },
+  "archivos_auditados": {
+    "prueba_agujeros_negros/prueba_agujeros_negros.json": "fb007d5ba7e9f2b3464c053a5e8c77703982c4a77f7e6f3f0e23cfcd45948b56",
+    "prueba_agn_tcds/prueba_agn_tcds.json": "b370fdd3f4433be1771500182a150aa33883ad99af8afe3f74a117fbbbd4bfb0",
+    "prueba_primeros_principios/prueba_primeros_principios.json": "f3f8141f4dababc9804eb7f6b1062cca17256e0e193b9dc542371c3fe0bcec62",
+    "protocolo_matematico_explicito/protocolo_matematico_completo.json": "713f35db31ebec4b20b17c1897d7167c0cf243704b53557146cae4a7e8b6f94b",
+    "contraste_protocolos_matematicos/contraste_protocolos_completo.json": "5bd0a4fb018e50d0020828cdc2a2cffc5aae3dcb315aed150d8bb8716a6d9ddc",
+    "protocolos_matematicos_deterministas/protocolos_matematicos_completos.json": "b28b695749dee1db9b0692e904dbc9f3a88ad28c2d8268db3738b4e795fbc128",
+    "veredicto_integral/veredicto_integral.json": "72ecff012f8cc32a95addab534ed677e58b83e132e5e5ab366bf1574ff786caf",
+    "auditoria_TCDS_primeros_principios/reporte.json": "614869edad137a52463ce4a419bae61165037a0e24e5806fb7ab2193d9826740",
+    "auditoria_TCDS_primeros_principios/H_z_comparacion.png": "8d2f254be5199d33071faf65d6dc260c5f110f384c00dcb2e9022fe0fefe2e43",
+    "prueba_tension_hubble/prueba_tension_hubble.json": "37e16d37385756854088429a8c436e48c28f546019e7133ff8c3cf13e4527e0d",
+    "evaluacion_determinismo/evaluacion_determinismo_resultados.json": "df5a188ab0e21c30e0b240311687f7a746d5bf885b486ed0ec8d73a0cc59ab60"
+  }
+}
