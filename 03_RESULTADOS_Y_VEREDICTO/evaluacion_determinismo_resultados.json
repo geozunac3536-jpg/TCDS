@@ -1,0 +1,51 @@
+{
+  "titulo": "Evaluación desde el Determinismo — TCDS vs Lambda-CDM",
+  "principio_evaluacion": "No solo ajuste: causalidad, derivación, explicación, consistencia",
+  "TCDS": {
+    "tipo": "Determinista-Axiomático",
+    "parametros_ajustados": [
+      "κ",
+      "LI0",
+      "n"
+    ],
+    "cantidades_derivadas": [
+      "H_inf",
+      "H0(z)",
+      "ΔH0",
+      "LI(z)"
+    ],
+    "H0_z0": 73.04,
+    "H0_z1100": 67.35781918385287,
+    "tension_H0_explicada": true,
+    "chi2": 1157.5394592653388,
+    "puntuacion_causalidad": 10.0,
+    "puntuacion_derivacion": 10.0,
+    "puntuacion_consistencia": 10.0,
+    "puntuacion_global": 9.043117901373074
+  },
+  "Lambda_CDM": {
+    "tipo": "Fenomenológico-Estadístico",
+    "parametros_ajustados": [
+      "H0",
+      "Ωm"
+    ],
+    "postulados_ad_hoc": [
+      "Λ",
+      "Materia Oscura Fría"
+    ],
+    "H0_constante": 70.17952764516953,
+    "tension_H0_explicada": false,
+    "chi2": 966.1630395399537,
+    "puntuacion_causalidad": 0.0,
+    "puntuacion_derivacion": 2.0,
+    "puntuacion_consistencia": 5.0,
+    "puntuacion_global": 4.25
+  },
+  "conclusiones": {
+    "ganador_determinismo": "TCDS",
+    "ganador_ajuste_numérico": "Lambda-CDM",
+    "nota": "El ajuste numérico no mide la capacidad explicativa. TCDS explica lo que LCDM no puede: la evolución de H0 entre z=0 y z=1100."
+  },
+  "fecha_utc": "2026-08-27T07:28:13.842811+00:00",
+  "hash_integridad": "b9f4ca454ce890402d182eb06b9f430ce60071af601e1a552d0055b14058f761"
+}

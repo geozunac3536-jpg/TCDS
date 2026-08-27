@@ -1,0 +1,68 @@
+{
+  "titulo": "Veredicto Integral TCDS vs Lambda-CDM",
+  "fecha_utc": "2026-08-27T07:28:13.872586+00:00",
+  "criterios_evaluados": [
+    "Determinismo y derivación",
+    "Honestidad ontológica",
+    "Coherencia causal z=0 ↔ z=1100",
+    "Poder explicativo (tensión Hubble)",
+    "Ajuste empírico χ²",
+    "Economía de hipótesis"
+  ],
+  "TCDS": {
+    "tipo": "Determinista-Axiomático",
+    "chi2": 1157.5395,
+    "H0_z0": 73.04,
+    "H0_z1100": 67.3578,
+    "tension_explicada": true,
+    "entidades_inventadas": 0,
+    "parametros_ajustados": 3,
+    "cantidades_derivadas": 4,
+    "axiomas_cumplidos": 4,
+    "auto_restricciones": "Sí — LI(z=1100)=1, κ<0, evolución continua",
+    "componentes_oscuras": "Ninguna",
+    "puntuaciones": {
+      "determinismo": 10.0,
+      "honestidad_ontologica": 10.0,
+      "coherencia_causal": 10.0,
+      "poder_explicativo": 10.0,
+      "ajuste_empirico": 0.4311749999999961,
+      "economia_hipotesis": 10.0,
+      "global": 8.41
+    }
+  },
+  "Lambda_CDM": {
+    "tipo": "Fenomenológico-Estadístico",
+    "chi2": 966.163,
+    "H0_constante": 70.1795,
+    "tension_explicada": false,
+    "entidades_inventadas": 3,
+    "parametros_ajustados": 2,
+    "postulados_ad_hoc": 3,
+    "auto_restricciones": "Ninguna — parámetros libres sin conexión interna",
+    "componentes_oscuras": "Materia Oscura Fría + Energía Oscura Λ → ~96% del universo",
+    "puntuaciones": {
+      "determinismo": 2.0,
+      "honestidad_ontologica": 1.0,
+      "coherencia_causal": 0.0,
+      "poder_explicativo": 1.0,
+      "ajuste_empirico": 10.0,
+      "economia_hipotesis": 1.0,
+      "global": 2.5
+    }
+  },
+  "veredicto": {
+    "ganador": "TCDS",
+    "puntuacion_TCDS": 8.41,
+    "puntuacion_LCDM": 2.5,
+    "diferencia": 5.91,
+    "conclusiones": [
+      "TCDS explica la tensión de Hubble; LCDM la padece",
+      "TCDS no inventa entidades oscuras; LCDM postula el 96% del universo sin detección",
+      "TCDS es determinista; LCDM es fenomenológico-estadístico",
+      "Única ventaja de LCDM: mejor ajuste numérico intermedio",
+      "TCDS necesita refinamiento de LI(z) para mejorar el ajuste"
+    ]
+  },
+  "hash_integridad": "60f82479601b64fe472b178ea734bb836f5e18c57142dc151c02bf9b0c4e7629"
+}

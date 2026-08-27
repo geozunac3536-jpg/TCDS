@@ -1,0 +1,5 @@
+ANÁLISIS GLOBAL TCDS — 2026-08-27 07:37:34.825352
+Eventos analizados: 5
+Alertas detectadas: 4
+Rupturas confirmadas: 0
+Tasa de coincidencia: 50.0%
