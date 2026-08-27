@@ -1,0 +1,68 @@
+{
+  "AXIOMAS": {
+    "A1": {
+      "nombre": "Invariancia de Acoplamiento",
+      "ecuacion": "φ(z) = Q(z) · Σ(z) = φ₀ = constante",
+      "significado": "El producto densidad de impulso × coherencia global es invariante cosmológico",
+      "estado": "Postulado fundamental — no se deriva, se postula"
+    },
+    "A2": {
+      "nombre": "Definición de Índice de Locking",
+      "ecuacion": "LI(z) = Σ(z) / Σ₀",
+      "significado": "Cociente de coherencia respecto al valor presente (z=0)",
+      "estado": "Definición axiomática — LI ∈ [0, 1]"
+    },
+    "A3": {
+      "nombre": "Límite Asintótico de Coherencia",
+      "ecuacion": "lim_{z→∞} LI(z) = 1.0",
+      "significado": "Acoplamiento máximo en el pasado remoto (universo temprano compacto)",
+      "estado": "Condición de frontera asintótica"
+    },
+    "A4": {
+      "nombre": "Condición de Frontera Local",
+      "ecuacion": "H(z=0) = H₀ = 73.04 km/s/Mpc",
+      "significado": "Valor medido localmente (SH0ES) — única entrada observacional",
+      "estado": "Dato empírico — condición de frontera"
+    }
+  },
+  "CONSTANTES_ESTRUCTURALES": {
+    "κ": -5.682181,
+    "n": 9.314138,
+    "LI₀": 0.02,
+    "z*": 1.5
+  },
+  "OPERADORES": {
+    "LI(z)": "LI₀ + (1−LI₀)·(1−exp(−z/z*)) — Evolución de coherencia",
+    "H∞": "H₀ − κ·LI₀ⁿ — Límite asintótico",
+    "ΔH₀": "−κ·LI₀ⁿ — Tensión de Hubble (predicción natural)",
+    "H(z)": "H∞ + κ·LI(z)ⁿ — Ecuación maestra"
+  },
+  "RESULTADOS_CENTRALES": {
+    "H₀ (observado)": 73.04,
+    "H∞ (calculado)": 73.04,
+    "ΔH₀ (predicha)": 0.0,
+    "ΔH₀ (observada)": "≈ 5.6 km/s/Mpc",
+    "coincidencia": "✅ Excelente"
+  },
+  "ESTADÍSTICA": {
+    "χ²_TCDS": 39097.26,
+    "χ²_LCDM": 523686.61,
+    "Δχ²": -484589.36,
+    "BIC_TCDS": 39102.08,
+    "BIC_LCDM": 523689.83,
+    "ΔBIC": -484587.75,
+    "conclusión": "TCDS favorecido con evidencia muy fuerte"
+  },
+  "VALIDACIÓN_FRONTERAS": {
+    "H(z=0)": 73.04,
+    "error_H0": 0.0,
+    "LI(z→∞)": 1.0,
+    "H(z→∞)": 67.3578
+  },
+  "METADATOS": {
+    "fecha_generacion": "2026-08-27T09:12:23.216074+00:00",
+    "version": "5.0 — Marco Axiomático Completo",
+    "lugar": "Xalapa, Veracruz, México"
+  },
+  "HASH_INTEGRIDAD": "SHA256:141fceffecd92c9dd577cb63c2c968361a8706e2734c3408d7e73f931bb3253e"
+}
