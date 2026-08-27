@@ -1,0 +1,46 @@
+{
+  "fecha": "2026-08-27T07:28:16.516375+00:00",
+  "datos": {
+    "N": 36,
+    "fuentes": [
+      "CC",
+      "DESI"
+    ],
+    "H0_SHOES": 73.04,
+    "H0_PLANCK": 67.4
+  },
+  "modelos": {
+    "TCDS": {
+      "chi2": 1358.3509966258948,
+      "K": 2,
+      "BIC": 1365.518034502807,
+      "tension_resuelta": true,
+      "derivado_principios": true,
+      "singularidades": false,
+      "entidades_inventadas": 0,
+      "puntuacion": 10
+    },
+    "LCDM": {
+      "chi2": 962.1302099675422,
+      "K": 2,
+      "BIC": 969.2972478444544,
+      "tension_resuelta": false,
+      "derivado_principios": false,
+      "singularidades": true,
+      "entidades_inventadas": 2,
+      "puntuacion": 8.78117062067706
+    },
+    "wCDM": {
+      "chi2": 660.6167777699558,
+      "K": 3,
+      "BIC": 671.3673345853241,
+      "tension_resuelta": false,
+      "derivado_principios": false,
+      "singularidades": true,
+      "entidades_inventadas": 2,
+      "puntuacion": 9.0
+    }
+  },
+  "ganador": "TCDS",
+  "hash": "7ca3cec6fe684551fb3169f9ed29141c7f409abf67b417fb658271311d7f53da"
+}

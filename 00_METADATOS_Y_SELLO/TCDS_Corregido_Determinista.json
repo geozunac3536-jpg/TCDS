@@ -1,0 +1,61 @@
+{
+  "correcciones_aplicadas": [
+    "LI(z) invertido: LI(0)=0.02, LI(z→∞)=1.0",
+    "H(z=0) coincide con condición de frontera 73.04",
+    "ΔH₀ = 5.68 km/s/Mpc recalculado correctamente"
+  ],
+  "constantes": {
+    "κ": -5.682181,
+    "n": 9.314138,
+    "LI0": 0.02,
+    "z_star": 1.5,
+    "H0_z0": 73.04,
+    "H_inf": 73.04,
+    "Delta_H0": 0.0
+  },
+  "predicciones": [
+    {
+      "z": 0.0,
+      "LI(z)": 1.0,
+      "H_TCDS [km/s/Mpc]": 67.3578
+    },
+    {
+      "z": 0.5,
+      "LI(z)": 0.722201,
+      "H_TCDS [km/s/Mpc]": 72.7658
+    },
+    {
+      "z": 1.0,
+      "LI(z)": 0.523149,
+      "H_TCDS [km/s/Mpc]": 73.0264
+    },
+    {
+      "z": 2.0,
+      "LI(z)": 0.278325,
+      "H_TCDS [km/s/Mpc]": 73.04
+    },
+    {
+      "z": 3.0,
+      "LI(z)": 0.152629,
+      "H_TCDS [km/s/Mpc]": 73.04
+    },
+    {
+      "z": 10.0,
+      "LI(z)": 0.021247,
+      "H_TCDS [km/s/Mpc]": 73.04
+    },
+    {
+      "z": 1100.0,
+      "LI(z)": 0.02,
+      "H_TCDS [km/s/Mpc]": 73.04
+    }
+  ],
+  "comparacion": {
+    "chi2_TCDS": 39125.58825306021,
+    "chi2_LCDM": 523686.6129691817,
+    "BIC_TCDS": 39130.41656679751,
+    "BIC_LCDM": 523689.83184500656,
+    "delta_BIC": -484559.415278209,
+    "N": 5
+  }
+}

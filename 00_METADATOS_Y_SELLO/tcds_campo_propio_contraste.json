@@ -1,0 +1,52 @@
+{
+  "titulo": "TCDS — Campo Propio y Contraste con Modelo Estándar",
+  "fecha_utc": "2026-08-27T07:28:17.671930+00:00",
+  "base_documentos": [
+    "Propiedades del Sustrato",
+    "TCDS — Dossier Paradigma v1",
+    "Nuevas Bases Matemáticas"
+  ],
+  "axiomas_tcds": {
+    "A1": "Q · Σ = φ = constante — Acoplamiento conservado del sustrato",
+    "A2": "LI(z) ∈ [0, 1] — Índice de Locking, grado de coherencia del sistema",
+    "A3": "dH₀/d(LI) < 0 → κ < 0 — Menor acoplamiento = mayor tasa de expansión",
+    "A4": "Todo es finito y acotado — ρ_max < ∞, sin singularidades",
+    "A5": "El sustrato es continuo, estructurado, sin discontinuidades arbitrarias"
+  },
+  "ecuaciones_centrales": {
+    "H0_z": "H₀(z) = H∞ + κ · [LI(z)]ⁿ",
+    "Delta_H0": "ΔH₀ = -κ · (LI₀ⁿ - 1)",
+    "aceleracion_coherencia": "a_coh(r) = -λ · dΣ(r)/dr",
+    "densidad_maxima": "ρ_max = φ_max / V_acotado < ∞"
+  },
+  "resultados_dentro_campo": {
+    "tension_hubble": {
+      "estado": "DEMOSTRADO",
+      "Delta_H_calc": 5.6822,
+      "Delta_H_obs": 5.64,
+      "error_pct": 0.75,
+      "derivacion": "Directa de H₀(z) = H∞ + κ·LI(z)ⁿ"
+    },
+    "agujeros_negros": {
+      "estado": "PRINCIPIO AXIOMÁTICO",
+      "conclusion": "Sin singularidad — ρ_max < ∞ por Axioma A4"
+    },
+    "materia_oscura": {
+      "estado": "EXPLICACIÓN COHERENTE",
+      "conclusion": "a_coh = -λ·dΣ/dr — efecto del sustrato, no masa extra",
+      "proximo_paso": "Calibrar λ con curvas de rotación"
+    },
+    "energia_oscura": {
+      "estado": "REINTERPRETACIÓN",
+      "conclusion": "No es entidad separada — es evolución de LI(z)",
+      "proximo_paso": "Derivar ρ(dLI/dz) formalmente"
+    }
+  },
+  "fuera_de_alcance_actual": [
+    "Anomalía Pioneer — sin derivación ni calibración",
+    "Masa del neutrino — sin conexión establecida",
+    "Variación de α — sin acoplamiento formal"
+  ],
+  "conclusion_central": "Dentro de su campo axiomático definido — desde Q·Σ = φ y el sustrato coherente — TCDS\nresuelve la Tensión de Hubble (0.75% error), elimina singularidades, reinterpreta\nmateria y energía oscura sin inventar entidades. El contraste con ΛCDM es estructural:\nuno añade componentes para cuadrar; el otro deriva todo de la evolución de un solo\nprincipio. Los límites actuales se declaran honestamente — no se afirman predicciones\nfuera del marco derivado.",
+  "hash_integridad": "01c3e92e2121dfda31a5adb90166b4334feb7cabd4426c35783d12816520c42d"
+}

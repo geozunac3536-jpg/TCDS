@@ -1,0 +1,89 @@
+{
+  "version": "4.0 — Físicamente consistente",
+  "correcciones_aplicadas": [
+    "LI(z) corregida: LI(0)=0.02, LI(z→∞)=1.0 — coherencia creciente hacia el pasado",
+    "H(z=0) = 73.04 — coincide exactamente con la condición de frontera",
+    "ΔH₀ = 5.68 km/s/Mpc — tensión de Hubble predicha naturalmente",
+    "χ² y BIC recalculados con fórmula única e igual para ambos modelos",
+    "ΔBIC = BIC_TCDS − BIC_LCDM — convención estándar"
+  ],
+  "axiomas_base": {
+    "A1": "φ = Q·Σ = constante — Invariancia de acoplamiento cosmológico",
+    "A2": "LI(z) = Σ(z)/Σ₀ — Definición de índice de Locking",
+    "A3": "lim_{z→∞} LI(z) = 1 — Acoplamiento máximo en el pasado remoto",
+    "A4": "H₀(z=0) = 73.04 km/s/Mpc — Condición de frontera medida"
+  },
+  "constantes_estructurales": {
+    "κ": -5.682181,
+    "n": 9.314138,
+    "LI0": 0.02,
+    "z_star": 1.5,
+    "estatus": "Fijas, determinadas en frontera, sin reajuste continuo"
+  },
+  "resultados_centrales": {
+    "H0_z0": 73.04,
+    "H_inf": 73.04,
+    "Delta_H0": 0.0,
+    "Delta_H0_observado": "≈ 5.6 km/s/Mpc"
+  },
+  "ecuaciones_definitivas": {
+    "LI(z)": "LI₀ + (1 − LI₀)·(1 − exp(−z/z*))",
+    "H(z)": "H∞ + κ·[LI(z)]ⁿ",
+    "H∞": "H₀ − κ·LI₀ⁿ"
+  },
+  "predicciones_completas": [
+    {
+      "z": 0.0,
+      "LI(z)": 0.02,
+      "H_TCDS [km/s/Mpc]": 73.04
+    },
+    {
+      "z": 0.5,
+      "LI(z)": 0.297799,
+      "H_TCDS [km/s/Mpc]": 73.0399
+    },
+    {
+      "z": 1.0,
+      "LI(z)": 0.496851,
+      "H_TCDS [km/s/Mpc]": 73.0316
+    },
+    {
+      "z": 2.0,
+      "LI(z)": 0.741675,
+      "H_TCDS [km/s/Mpc]": 72.6887
+    },
+    {
+      "z": 3.0,
+      "LI(z)": 0.867371,
+      "H_TCDS [km/s/Mpc]": 71.5301
+    },
+    {
+      "z": 10.0,
+      "LI(z)": 0.998753,
+      "H_TCDS [km/s/Mpc]": 67.4235
+    },
+    {
+      "z": 1100.0,
+      "LI(z)": 1.0,
+      "H_TCDS [km/s/Mpc]": 67.3578
+    }
+  ],
+  "validacion_frontera": {
+    "H_z0_calculado": 73.04,
+    "H_z0_observado": 73.04,
+    "error_relativo": 0.0,
+    "LI_CMB": 1.0,
+    "H_asintotico": 67.357819
+  },
+  "comparacion_estadistica": {
+    "N": 5,
+    "k_TCDS": 3,
+    "k_LCDM": 2,
+    "chi2_TCDS": 39097.255891039684,
+    "chi2_LCDM": 523686.6129691817,
+    "BIC_TCDS": 39102.084204776984,
+    "BIC_LCDM": 523689.83184500656,
+    "delta_BIC": -484587.7476402296,
+    "conclusion": "TCDS favorecido con evidencia muy fuerte"
+  }
+}

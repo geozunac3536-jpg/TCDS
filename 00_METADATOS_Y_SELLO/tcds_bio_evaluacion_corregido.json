@@ -1,0 +1,22 @@
+{
+  "titulo": "TCDS en Biología Estructural — Evaluación Corregida",
+  "fecha_utc": "2026-08-27T07:28:21.268673+00:00",
+  "documentos_base": [
+    "TCDS_BIO_TEC.pdf",
+    "TCDS_BioAudit_v1.0.0.pdf",
+    "Manual_Operativo_TCDS_BioAudit_v1.0.0.pdf"
+  ],
+  "casos_evaluados": {
+    "plegamiento_proteinas": {
+      "estado": "CONCEPTUALMENTE COHERENTE",
+      "pendiente": "Calibración Γ₀, medición LI, confirmación de frecuencia"
+    },
+    "bioaudit_validacion": {
+      "estado": "PROTOTIPO FUNCIONAL",
+      "proteinas_probadas": 11,
+      "siguiente_paso": "Validación a gran escala ≥1000 estructuras"
+    }
+  },
+  "conclusion_central": "El marco TCDS aplicado a biología ofrece una explicación determinista del plegamiento de\nproteínas y una capa de validación independiente para IA estructural. BioAudit ya es funcional.\nEl plegamiento determinista es conceptualmente sólido pero requiere calibración experimental.\nAmbos son medibles y refutables.",
+  "hash_integridad": "23346decc3c73e4358cb9826473b514677dc6b94763a040a4fda69681537572a"
+}

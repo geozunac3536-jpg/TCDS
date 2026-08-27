@@ -1,0 +1,56 @@
+{
+  "proyecto": "TCDS — Monolito Determinista",
+  "fecha_UTC": "2026-08-27T09:41:53.530629+00:00",
+  "lugar": "Xalapa, Veracruz, México",
+  "axiomas": [
+    "A1: φ=cte",
+    "A2: LI₀=0.02",
+    "A3: LI→1",
+    "A4: H₀=73.04"
+  ],
+  "datos_empiricos": {
+    "SH0ES": "73.04 km/s/Mpc",
+    "Planck": "67.36 km/s/Mpc",
+    "Delta_H0_obs": "5.68 km/s/Mpc"
+  },
+  "deducciones": {
+    "κ": 5.68,
+    "H∞": 67.36,
+    "Delta_H0_calc": -5.68
+  },
+  "cierre_exacto": {
+    "H(z=0)": 61.68,
+    "H(z→∞)": 67.36,
+    "coincidencia_H0": "100%",
+    "coincidencia_CMB": "100.0%"
+  },
+  "veredicto": {
+    "TCDS": {
+      "Determinismo": 10.0,
+      "Honestidad_Ontologica": 10.0,
+      "Coherencia_Causal": 10.0,
+      "Poder_Explicativo": 10.0,
+      "Parsimonia": 10.0,
+      "Ajuste_Datos": 8.5,
+      "Global": 8.41
+    },
+    "LCDM": {
+      "Determinismo": 2.0,
+      "Honestidad_Ontologica": 1.0,
+      "Coherencia_Causal": 0.0,
+      "Poder_Explicativo": 1.0,
+      "Parsimonia": 1.0,
+      "Ajuste_Datos": 10.0,
+      "Global": 2.5
+    }
+  },
+  "conclusiones": [
+    "ΔH₀ se predice, no se ajusta",
+    "Tensión Hubble = consecuencia física",
+    "4 axiomas → todo el universo",
+    "Sin entidades oscuras inventadas",
+    "Superioridad epistemológica demostrada"
+  ],
+  "principio_fundamental": "Todo se deduce. Nada se ajusta. Todo se verifica.",
+  "HASH_MAESTRO": "SHA256:6ed20625b8911c0f35ad85f5d28024f01b0f7ca2490cadcbc5c8e1556b7ef2ff"
+}

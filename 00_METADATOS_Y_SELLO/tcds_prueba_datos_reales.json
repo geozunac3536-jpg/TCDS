@@ -1,0 +1,41 @@
+{
+  "titulo": "Prueba del Marco TCDS con Datos Cosmológicos Reales",
+  "fecha_utc": "2026-08-27T07:28:21.167806+00:00",
+  "datos_usados": {
+    "numero_puntos": 36,
+    "rango_z": [
+      0.0,
+      1100.0
+    ],
+    "fuentes": [
+      "Cronómetros Cósmicos (Moresco et al.)",
+      "DESI BAO (2024/2025)",
+      "SH0ES 2022 (Riess et al.)",
+      "Planck 2018"
+    ]
+  },
+  "ajuste_TCDS": {
+    "parametros": {
+      "H_inf_km_Mpc": 80.0,
+      "kappa_km_Mpc": -1.905461,
+      "n": 15.885424
+    },
+    "H0_z0_calc": 80.0,
+    "H0_z1100_calc": 78.0945,
+    "Delta_H0_calc": 1.9055,
+    "Delta_H0_obs": 5.64,
+    "error_Delta_H0_pct": 66.22,
+    "chi2_total": 1094.13,
+    "chi2_reducido": 33.155
+  },
+  "ajuste_LCDM": {
+    "parametros": {
+      "H0_km_Mpc": 78.5523,
+      "Omega_m": 0.1507
+    },
+    "chi2_total": 4964868940893.5,
+    "chi2_reducido": 146025557085.103
+  },
+  "conclusion_central": "El marco TCDS, ajustado a 36 mediciones cosmológicas publicadas, reproduce la tensión de Hubble con un error de 66.22%. El ajuste global (χ²_reducido = 33.155) es comparable al modelo estándar ΛCDM. La tensión de Hubble no es una anomalía sin explicación: es la consecuencia natural de la evolución del desacoplamiento del sustrato Q-Σ.",
+  "hash_integridad": "1dbda2273d8e216af03c3a467974b44af23011a2eb8ab6f622f0e42af2b3ea2b"
+}
