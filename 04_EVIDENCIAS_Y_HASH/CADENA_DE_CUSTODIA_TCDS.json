@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "title": "TCDS MASTER FORENSIC AUDIT - TOTAL CUSTODY",
+    "timestamp_utc": "2026-08-27T07:40:36.744837+00:00",
+    "status": "VERIFIED_AND_SEALED",
+    "protocol_version": "v4.1 Universal"
+  },
+  "integrity_chain": {
+    "prueba_agujeros_negros/prueba_agujeros_negros.json": "fb007d5ba7e9f2b3464c053a5e8c77703982c4a77f7e6f3f0e23cfcd45948b56",
+    "prueba_agn_tcds/prueba_agn_tcds.json": "b370fdd3f4433be1771500182a150aa33883ad99af8afe3f74a117fbbbd4bfb0",
+    "tcds_bio_evaluacion_corregido/tcds_bio_evaluacion_corregido.json": "de106e0bb849de22c6777155e9991e72d8319b3fcfaf7edcd693e7eacc6c6f91",
+    "protocolos_matematicos_deterministas/protocolos_matematicos_completos.json": "b28b695749dee1db9b0692e904dbc9f3a88ad28c2d8268db3738b4e795fbc128",
+    "veredicto_integral/veredicto_integral.json": "72ecff012f8cc32a95addab534ed677e58b83e132e5e5ab366bf1574ff786caf",
+    "verificacion_multidominio_tcds/reporte_multidominio.json": "9801296a9f5f33ca6c5c4b63fcdca5ddd2cd5673eced8d97ced84da3ab3edbe4",
+    "verificacion_multidominio_tcds/multidominio_comparacion.png": "3a89189d8ed4c0f54d23459aa536a83c517e921d2d02a8039d409297d593b6e3",
+    "tcds_paradojas_prueba_datos_reales/tcds_paradojas_prueba_datos_reales.json": "8937eb2519f69a19dd70f88b29a2276eb311569ab83436b48e527d720dbb6204",
+    "tcds_verificacion_datos_reales/H_z_tcds_vs_datos.png": "a78381ef6a034b484d3e8fa86c5d5df0c0b5ee9a8f8eb651bd18f2cb37c338b7",
+    "tcds_verificacion_datos_reales/tcds_verificacion_datos_reales.json": "774c62ddb12bd38b553912ba6058f22d60bfe4be0f847ac22f22d60ff5ec2074",
+    "tcds_prueba_datos_reales/tcds_prueba_datos_reales.json": "1776ce0be25911421986d7ba286826c4fdd9f73c5ba6284c93434c8b374aff93",
+    "tcds_velocidad_luz_prueba_completa/tcds_velocidad_luz_completa.json": "4b0e59d5da3cafe21126042f212fbfc1fe821ebaacf8453b42d443de7d7c15a0",
+    "graficas_tcds_finance/TCDS_FINANCE_2008_CRISIS_FINANCIERA_2008-09.png": "7eba1c243f012589c067fc9e4a0d34b3dc1fd092a97c0a5dc0fda60fedff7bf0",
+    "graficas_tcds_finance/TCDS_FINANCE_2000_DOTCOM_2000-03.png": "3bbf58a95419af528e0b527a4e8fc56f6bc65a0098e9a9142e45bdfc90c62f03",
+    "graficas_tcds_finance/TCDS_FINANCE_2008_CRISIS_FINANCIERA.png": "d2736c4bd131f9d68e7d1f6a9e84fe9ffedaa0283872cb69de1ceb82c3244f6c",
+    "graficas_tcds_finance/TCDS_FINANCE_1987_LUNES_NEGRO.png": "e4226c56e0e8b26cc70cde2bae721d5ee4193616364ddb63ccc9975c4ad74f1a",
+    "graficas_tcds_finance/TCDS_FINANCE_2020_CRASH_COVID_2020-02.png": "51ef277586e9a7f82f15ace383580a86f531b69bbd61596c2bee214444bdb500",
+    "graficas_tcds_finance/TCDS_FINANCE_2020_CRASH_COVID.png": "43bb49baa4478588ae58c7fe0acc4b96ef130c6428a6c6717c17098374da7f5a",
+    "TCDS_FINANCE_Reporte_Global.txt": "97043ec0161c742173f96e1f53c82bd24f51c52daa090347d7b0016ad63f9478",
+    "TCDS_Resultados_Global.txt": "4944afa258ec3d6d2944fa04cbb27e26412fe348c5e70ca36f1319a70e07acea",
+    "TCDS_Reporte_Monitoreo_20260827.txt": "793daf8527bef6f3363c031aa8758a879d36d46d41b89d44ca72f6bfdfdd06e8"
+  }
+}
