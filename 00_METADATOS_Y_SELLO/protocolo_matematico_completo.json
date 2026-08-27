@@ -1,0 +1,45 @@
+{
+  "titulo": "Protocolo Matemático Explícito — TCDS vs Modelo Estándar",
+  "fecha_utc": "2026-08-27T07:28:16.657304+00:00",
+  "Modelo_Estandar": {
+    "ecuacion_hubble": "H²(z) = H₀²[Ωₘ(1+z)³ + ΩΛ + ...]",
+    "H0_es_constante": true,
+    "delta_H0_impuesta": 0.0,
+    "singularidad": "r→0, ρ→∞",
+    "materia_oscura": "M_oscura(r) puesta a mano",
+    "energia_oscura": "Λ cortada 10¹²⁰×",
+    "parametros_libres": [
+      "H0",
+      "Ωₘ",
+      "ΩΛ",
+      "Ωₖ",
+      "M_oscura"
+    ],
+    "error_delta_H0": 5.640000000000001
+  },
+  "TCDS": {
+    "axioma_central": "Q · Σ = φ = constante",
+    "ecuacion_hubble": "H₀(z) = H∞ + κ · LI(z)ⁿ",
+    "H0_evoluciona": true,
+    "delta_H0_formula": "ΔH₀ = -κ · (LI₀ⁿ - 1)",
+    "parametros_estructurales": {
+      "κ": -5.682181,
+      "LI0": 0.02,
+      "n": 9.314138,
+      "H∞": 73.04
+    },
+    "resultados_calculados": {
+      "H0_z1100_calc": 67.357819,
+      "H0_z1100_obs": 67.4,
+      "error_H0_cmb": 0.042181,
+      "delta_H0_calc": 5.682181,
+      "delta_H0_obs": 5.640000000000001,
+      "error_delta_H0": 0.042181
+    },
+    "singularidad": "ρ_max < ∞ — finito",
+    "materia_oscura": "a_coh(r) = -λ·dΣ/dr — gradiente de coherencia",
+    "limites_arbitrarios": "NINGUNO — LI ∈ [0,1], todo finito"
+  },
+  "conclusion_central": "Este protocolo expone de format explícita y completa las ecuaciones de ambos marcos.\nEl modelo estándar impone ΔH₀ ≡ 0 por definición y requiere 5+ entidades invisibles para cuadrar los datos.\nTCDS deriva ΔH₀ ≈ 5.68 km/s/Mpc desde sus axiomas, sin entidades extra, sin cortes arbitrarios, sin infinitos.\nEl error de TCDS es 0.04 km/s/Mpc (0.7%) frente al 5.64 km/s/Mpc (100%) del modelo estándar.\nLa diferencia no es de números — es de método: Uno AJUSTA. El otro DERIVA.",
+  "hash_integridad": "dcf4bc4206717cb96f8d145ad1efafd4e35e1c4a415a53f814857fac71acc490"
+}

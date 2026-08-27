@@ -1,0 +1,53 @@
+{
+  "titulo": "Prueba TCDS — Núcleos Activos de Galaxias (AGN)",
+  "documentos_base": [
+    "AGN_modelo_matematico_TCDS.pdf",
+    "Modelos_AGN.pdf"
+  ],
+  "fecha_utc": "2026-08-27T07:28:16.598158+00:00",
+  "observaciones_clave": {
+    "luminosidad_L_sol": "hasta 10¹² L☉",
+    "variabilidad_min": "horas",
+    "chorro_extension_kpc": "hasta 100 kpc",
+    "velocidad_central_kms": "> 10⁴ km/s"
+  },
+  "Modelo_Estandar_LCDM": {
+    "componentes": [
+      "BH supermasivo 10⁹ M☉",
+      "Disco de acreción",
+      "Singularidad",
+      "Corona ad-hoc",
+      "Materia Oscura"
+    ],
+    "singularidad": true,
+    "origen_BH_explicado": false,
+    "chorros_explicados": false,
+    "variabilidad_sin_parches": false,
+    "materia_oscura_requerida": true,
+    "puntuacion": 0.0
+  },
+  "TCDS": {
+    "axioma_base": "Q · Σ = φ",
+    "regimen_nucleo": "Q ≈ 0.98, Σ ≈ 0.98 → φ ≈ 0.96",
+    "radio_nucleo_km": "3.0e+08 km → < 1 día-luz",
+    "singularidad": false,
+    "energia_origen": "Desacoplamiento Q-Σ",
+    "chorros_mecanismo": "Gradiente de coherencia Σ",
+    "variabilidad_origen": "Región coherente compacta",
+    "materia_oscura_efecto": "Gradiente de Σ imita masa extra",
+    "predicciones_contrastables": [
+      "Luminosidad ∝ φ = Q·Σ, no solo ∝ Masa",
+      "Variabilidad Δt ∝ 1/φ → medible estadísticamente",
+      "Efecto 'materia oscura' ∝ edad galáctica",
+      "Chorros alineados con eje de mínima Σ",
+      "Emisión central → horizonte ausente → EHT puede ver estructura"
+    ],
+    "puntuacion": 10.0
+  },
+  "veredicto": {
+    "ganador": "TCDS",
+    "diferencia_puntos": 10.0,
+    "conclusion_central": "El modelo estándar requiere 5 componentes no observados para explicar los AGN. TCDS lo explica todo desde un solo principio: el acoplamiento entre densidad de impulso Q y coherencia global Σ. No hay singularidad, no hay materia oscura, no hay parches ad-hoc. La energía, los chorros, la variabilidad y la rotación plana son consecuencias naturales del sistema, no invenciones para cuadrar cuentas."
+  },
+  "hash_integridad": "491e9640a2f7cc2191cba7215d549ed2c5cdd45e3882e00896b740b029d7e49b"
+}

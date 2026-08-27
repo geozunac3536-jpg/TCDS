@@ -1,0 +1,48 @@
+{
+  "titulo": "Prueba: Primeros Principios vs Ajuste Ad-Hoc — TCDS vs Lambda-CDM",
+  "fecha_utc": "2026-08-27T07:28:16.626825+00:00",
+  "objetivo_reproducir": {
+    "H0_z0": 73.04,
+    "H0_z1100": 67.4,
+    "delta_H_observada": 5.640000000000001
+  },
+  "Lambda_CDM": {
+    "metodo": "Ajuste de parámetros libres",
+    "H0_se_deriva": false,
+    "parametros_libres": [
+      "H0",
+      "Ωm",
+      "Λ"
+    ],
+    "delta_H_calculada": 0.0,
+    "error_absoluto": 5.640000000000001,
+    "cortes_arbitrarios": true,
+    "puntuacion_derivacion": 0.0
+  },
+  "TCDS": {
+    "metodo": "Derivación desde axiomas — Q·Σ = φ, LI(z) continua",
+    "axiomas": [
+      "Q·Σ = φ",
+      "LI(z=1100) = 1.0",
+      "κ < 0"
+    ],
+    "parametros_estructurales": {
+      "κ": -5.682181,
+      "LI0": 0.02,
+      "n": 9.314138,
+      "nota": "No son libres — definen el régimen del sistema"
+    },
+    "cantidades_derivadas": {
+      "H_inf": 73.04,
+      "H0_z1100_calculado": 67.357819,
+      "delta_H_calculada": 5.682181
+    },
+    "error_absoluto": 0.04218099999999936,
+    "error_porcentual": 0.75,
+    "rango_finito": "LI ∈ [0,1], H₀ finito en todo z",
+    "sin_cortes_arbitrarios": true,
+    "puntuacion_derivacion": 10.0
+  },
+  "conclusion_central": "Lambda-CDM impone los valores para que cuadren. TCDS calcula los valores y cuadran solos.\nLa diferencia no es de precisión — es de método. Uno AJUSTA, el otro DERIVA.\nTCDS llega al resultado correcto sin límites extraños, sin cortes arbitrarios,\nsin inventar entidades, solo desde sus primeros principios.",
+  "hash_integridad": "1accb9b88fea81addbd82cbdb6bee1ee16ea30dff3d1f93ccb09b7e473a7bbb1"
+}

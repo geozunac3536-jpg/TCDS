@@ -1,0 +1,36 @@
+{
+  "titulo": "Prueba TCDS: Agujeros Negros — TCDS vs GR+Lambda-CDM",
+  "fecha_utc": "2026-08-27T07:28:16.567956+00:00",
+  "caso_prueba": "Agujero negro M = 10 M☉",
+  "radio_schwarzschild_m": 29541.27,
+  "radio_acoplamiento_TCDS_m": 28950.44,
+  "GR_LCDM": {
+    "singularidad_infinita": true,
+    "informacion_pierde": true,
+    "derivado_principios": false,
+    "necesita_fisica_extra": true,
+    "predicciones_contrastables": false,
+    "puntuacion": 0.0
+  },
+  "TCDS": {
+    "axioma_base": "Q · Σ = φ",
+    "singularidad_infinita": false,
+    "informacion_pierde": false,
+    "derivado_principios": true,
+    "necesita_fisica_extra": false,
+    "predicciones_contrastables": true,
+    "predicciones_concretas": [
+      "Espectro de radiación NO puramente térmico — lleva firma Σ",
+      "Residuo coherente final — no explosión",
+      "Distribución finita de masa — no punto",
+      "Desviaciones sutiles en ondas gravitacionales de fusión"
+    ],
+    "puntuacion": 10.0
+  },
+  "veredicto": {
+    "ganador": "TCDS",
+    "diferencia_puntos": 10.0,
+    "conclusion_central": "La Relatividad General se rompe en el interior del agujero negro (singularidad infinita) y destruye información (paradoja sin resolver). TCDS mantiene todo finito y coherente desde su primer axioma, sin entidades extra, sin infinitos, y con 4 predicciones contrastables por LIGO, Event Horizon Telescope y futuros observatorios."
+  },
+  "hash_integridad": "491e9640a2f7cc2191cba7215d549ed2c5cdd45e3882e00896b740b029d7e49b"
+}

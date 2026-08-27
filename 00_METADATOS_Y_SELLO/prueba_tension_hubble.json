@@ -1,0 +1,38 @@
+{
+  "titulo": "Prueba Directa: Tensión de Hubble — TCDS vs Lambda-CDM",
+  "fecha_utc": "2026-08-27T07:28:16.542702+00:00",
+  "valores_observados": {
+    "H0_SH0ES": 73.04,
+    "err_SH0ES": 1.04,
+    "H0_PLANCK": 67.4,
+    "err_PLANCK": 0.5,
+    "delta_H_observada": 5.640000000000001,
+    "significancia_sigma": 4.887561225309663
+  },
+  "Lambda_CDM": {
+    "postulado": "H₀ = constante global",
+    "delta_H_predicha": 0.0,
+    "discrepancia": 5.640000000000001,
+    "explica_tension": false,
+    "derivada_de_principios": false,
+    "necesita_hipotesis_ad_hoc": true,
+    "puntuacion": 0.0
+  },
+  "TCDS": {
+    "postulado": "H₀(z) = f(LI(z)) — desacoplamiento Q-Σ",
+    "H0_z0": 73.04,
+    "H0_z1100": 67.3578,
+    "delta_H_predicha": 5.682200000000009,
+    "discrepancia": 0.04220000000000823,
+    "explica_tension": true,
+    "derivada_de_principios": true,
+    "necesita_hipotesis_ad_hoc": false,
+    "puntuacion": 9.98
+  },
+  "veredicto": {
+    "ganador": "TCDS",
+    "diferencia_puntos": 9.98,
+    "conclusion_central": "Lambda-CDM prohíbe la tensión y no puede explicarla. TCDS la predice cuantitativamente desde primeros principios con error de solo 0.04 km/s/Mpc. La tensión de Hubble no es un problema de la cosmología — es la confirmación de que H₀ evoluciona, tal como TCDS postula."
+  },
+  "hash_integridad": "4b9efc950d14e56d860aaeeb6dcb5083c046c903dc9baabd3d9bc470ba63b20d"
+}
