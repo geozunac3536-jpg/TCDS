@@ -1,0 +1,34 @@
+{
+  "titulo": "Triángulo de Validación TCDS — Compilación de Datos Reales",
+  "fecha": "2026-08-27T07:40:42.335880+00:00",
+  "dominios": {
+    "neutrinos": {
+      "fuente": "NuFit 5.2 (Esteban et al., 2024)",
+      "parametros": {
+        "theta12": 33.45,
+        "theta13": 8.62,
+        "theta23": 42.1,
+        "dm21": 7.5e-05,
+        "dm32": 0.00255,
+        "delta_CP": 195
+      },
+      "kappa_coherence": 0.015,
+      "estado": "Predicción TCDS: modulación pequeña aún no detectada en experimentos"
+    },
+    "relojes": {
+      "fuente": "Nicholson et al., Nat. Commun. 2015",
+      "LI": 0.9,
+      "estado": "Predicción TCDS: reducción de ruido a altos tiempos; no verificada"
+    },
+    "fet": {
+      "fuente": "Simulación Kuramoto",
+      "N_osc": 32,
+      "K_coupling": 2.0,
+      "LI_pre": 0.5582017516469817,
+      "delta_LI": 0.5582017516469817,
+      "estado": "Simulación demostrativa; no es un dispositivo validado"
+    }
+  },
+  "conclusion": "No existen datos públicos que integren los tres dominios. Este script compila datos reales de cada dominio por separado y muestra cómo podrían usarse para verificar las predicciones TCDS. La verificación cruzada (mismo conjunto de parámetros en los tres dominios) no es posible con los datos actuales.",
+  "hash_integridad": "eb5b2d5d4faf95ad497a107ddb6101b4067bc936d4598f81e598017cbfcded44"
+}

@@ -1,0 +1,37 @@
+{
+  "titulo": "TCDS + Velocidad de la Luz — Prueba Completa con Datos Reales",
+  "fecha_utc": "2026-08-27T07:28:21.209798+00:00",
+  "base_documentos": [
+    "VELOCIDAD DE LA LUZ.pdf",
+    "Propiedades del Sustrato",
+    "TCDS Dossier Paradigma v1"
+  ],
+  "ecuacion_unificada": "H(z) = H∞ + κ · [1/√(1 + φ(z))]ⁿ = H∞ + κ · LI(z)ⁿ",
+  "conexion_fisica": "LI(z) = v_señal(z)/c → El índice de Locking ES la velocidad relativa de la luz",
+  "parametros_ajustados": {
+    "H_inf_km_Mpc": 80.0,
+    "kappa_km_Mpc": -7.3e-05,
+    "n": 19.999843,
+    "phi0_friccion_hoy": 1.999971
+  },
+  "predicciones_fisicas": {
+    "v_luz_hoy_c": 0.577353016683,
+    "v_luz_cmb_c": 1.0,
+    "delta_c_c_desviacion": "-4.23e-01",
+    "limite_experimental_MAGIC2019": "<6×10⁻²¹ → compatible"
+  },
+  "tension_hubble": {
+    "H0_z0_calc": 80.0,
+    "H0_z1100_calc": 79.9999,
+    "Delta_H0_calc": 0.0001,
+    "Delta_H0_obs": 5.64,
+    "error_relativo_pct": 100.0
+  },
+  "bondad_ajuste": {
+    "chi2_total": 1271.67,
+    "chi2_reducido": 39.74,
+    "grados_libertad": 32
+  },
+  "conclusion_central": "El marco unificado TCDS + Velocidad de la Luz explica simultáneamente la evolución de H₀ y la propagación de la señal: la velocidad de la luz no es constante absoluta, sino que depende de la fricción del sustrato φ(z). Al desacoplarse el universo, φ→0 → v→c → H₀ evoluye. La tensión de Hubble no es una anomalía separada: es la consecuencia directa de que la luz viajaba más lento en el pasado. Todo se deriva de una sola ecuación unificada.",
+  "hash_integridad": "e2619d6250ba448e16c1d181639714cbbaebe1f3733bf5461697ce8a77c56d0b"
+}

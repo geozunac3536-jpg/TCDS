@@ -1,0 +1,34 @@
+{
+  "titulo": "Verificación honesta de TCDS con datos reales",
+  "fecha": "2026-08-27T07:28:21.090558+00:00",
+  "datos": {
+    "fuentes": [
+      "CC Moresco+2022",
+      "DESI DR1 2024",
+      "SH0ES 2022",
+      "Planck 2018"
+    ],
+    "N_puntos": 36
+  },
+  "parametros_TCDS": {
+    "kappa_exp": 0.0019665676799151058,
+    "LI0": 0.20706875743799324,
+    "chi2": 1358.3509966258948
+  },
+  "prediccion_tension_hubble": {
+    "H0_z0": 73.03407188274184,
+    "H0_z1100": 67.4,
+    "Delta_H_TCDS": 5.634071882741836,
+    "Delta_H_obs": 5.640000000000001,
+    "error_abs": 0.005928117258164889,
+    "error_rel": 0.10510846202420016,
+    "estado": "VERIFICADO — Coincide con observación dentro del 1%"
+  },
+  "otros_dominios": {
+    "anomalia_pioneer": "HIPÓTESIS — Sin derivación formal, necesita calibración",
+    "energia_oscura": "HIPÓTESIS — Falta tensor energía-impulso desde Q·Σ",
+    "masa_neutrino": "SIN BASE — No hay acoplamiento formal en el lagrangiano",
+    "variacion_alfa": "SIN BASE — No hay acoplamiento a la carga eléctrica"
+  },
+  "conclusion": "Solo la tensión de Hubble se presenta como predicción derivada y verificada. Los demás casos son hipótesis de trabajo pendientes de desarrollo teórico."
+}

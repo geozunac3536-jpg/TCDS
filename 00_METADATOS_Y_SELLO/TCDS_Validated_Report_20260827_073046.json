@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "timestamp_utc": "2026-08-27T07:30:36.378877Z",
+    "framework_version": "TCDS-v2.0",
+    "archivo_entrada": null,
+    "errores": [],
+    "advertencias": [],
+    "hash_integridad": "e0151913eae96c30"
+  },
+  "marco_axiomas": {
+    "pesos_aa": {
+      "A": 1.8,
+      "R": -4.5,
+      "N": -3.5,
+      "D": -3.5,
+      "C": 2.5,
+      "Q": -3.5,
+      "E": -3.5,
+      "G": -0.4,
+      "H": -3.2,
+      "I": 4.5,
+      "L": 3.8,
+      "K": -3.9,
+      "M": 1.9,
+      "F": 2.8,
+      "P": -1.6,
+      "S": -0.8,
+      "T": -0.7,
+      "W": 5.0,
+      "Y": -1.3,
+      "V": 4.2
+    },
+    "rango_phi_valido": [
+      20.0,
+      50.0
+    ],
+    "sigma_sustrato": 1.0,
+    "longitud_min": 20,
+    "longitud_max": 60,
+    "umbrales_clasificacion": {
+      "inestabilidad_estable": 40.0,
+      "hidrofilico": -0.5,
+      "hidrofobico": 0.5,
+      "ph_acido": 5.5,
+      "ph_basico": 8.5
+    }
+  },
+  "resumen_estadistico": {
+    "total_secuencias": 40000,
+    "phi_promedio": 30.5495,
+    "phi_min": 21.2777,
+    "phi_max": 40.5955,
+    "dentro_rango_phi": 40000,
+    "inestabilidad_promedio": 44.31,
+    "gravy_promedio": -0.4889,
+    "categorias_frecuencia": {
+      "GENERAL_PURPOSE_SCAFFOLD": 13621,
+      "ACIDIC_ENVIRONMENT_STABLE": 8950,
+      "BASIC_ENVIRONMENT_STABLE": 8943,
+      "PHARMA_GRADE_SOLUBLE": 7974,
+      "MATERIAL_GRADE_HYDROPHOBIC": 512
+    },
+    "errores": [],
+    "advertencias": []
+  },
+  "sello_integridad": "e0151913eae96c30"
+}

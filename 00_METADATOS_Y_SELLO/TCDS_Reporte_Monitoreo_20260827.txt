@@ -1,0 +1,25 @@
+====================================================================================================
+TCDS — SISTEMA DE MONITOREO SÍSMICO · REPORTE GLOBAL
+Ejecución: 2026-08-27 07:38:50
+====================================================================================================
+
+■ México — Zona Subducción Placa Cocos
+  Sismos: 399 | LI actual: 0.6436 | Tendencia: +0.0076
+  Estado: 🟡 ALERTA AMARILLA — VIGILANCIA
+
+■ Japón — Arco de Japón
+  Sismos: 1135 | LI actual: 0.5472 | Tendencia: +0.0248
+  Estado: 🟢 RÉGIMEN NORMAL
+
+■ Turquía — Falla de Anatolia
+  Sismos: 439 | LI actual: 0.7317 | Tendencia: +0.0992
+  Estado: 🟡 ALERTA AMARILLA — VIGILANCIA
+
+■ Perú — Subducción Placa de Nazca
+  Sismos: 363 | LI actual: 0.6774 | Tendencia: -0.0131
+  Estado: 🟡 ALERTA AMARILLA — VIGILANCIA
+
+■ Chile — Subducción Placa de Nazca
+  Sismos: 507 | LI actual: 0.6977 | Tendencia: +0.0035
+  Estado: 🟡 ALERTA AMARILLA — VIGILANCIA
+

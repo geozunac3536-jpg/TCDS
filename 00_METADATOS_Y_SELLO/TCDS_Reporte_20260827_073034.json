@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "timestamp_utc": "2026-08-27T07:28:27.596979Z",
+    "framework_version": "TCDS-v2.1",
+    "entorno": "COLAB",
+    "archivo_entrada": null,
+    "errores": [],
+    "advertencias": []
+  },
+  "resumen": {
+    "total": 40000,
+    "phi_prom": 30.55,
+    "estables_pct": 43.7
+  },
+  "sello": "3b82f4bb458f"
+}
