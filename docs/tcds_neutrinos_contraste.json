@@ -1,0 +1,44 @@
+{
+  "titulo": "TCDS — Neutrinos · Contraste con Datos Experimentales",
+  "fecha_utc": "2026-08-27T07:28:17.634958+00:00",
+  "base_documento": "NEUTRINOS.pdf",
+  "datos_experimentales": {
+    "katrin": {
+      "m_nu_eV_upper_limit": 0.45,
+      "fuente": "KATRIN Collaboration, Nature Physics (2025)",
+      "nota": "Límite superior de masa del neutrino electrónico"
+    },
+    "oscilaciones": {
+      "delta_m2_21": 7.5e-05,
+      "delta_m2_32_nh": 0.0025,
+      "delta_m2_32_ih": -0.00245,
+      "fuente": "Particle Data Group 2024 — Rev. of Phys.",
+      "nota": "Diferencias cuadráticas de masa — oscilaciones neutrinas"
+    },
+    "cosmologia": {
+      "sum_m_nu_eV_upper": 0.12,
+      "fuente": "Planck 2018 + BAO + SNe Ia",
+      "nota": "Suma de masas desde fondo cósmico de microondas"
+    },
+    "decaimiento_beta": {
+      "m_nu_eV_mejor_ajuste": 0.0,
+      "fuente": "Mainz & Troitsk experimentos previos"
+    }
+  },
+  "propuesta_tcds": {
+    "idea_central": "m_ν ∝ (1 - LI) · κ_Σ — masa = energía de desacoplamiento del sustrato",
+    "estado": "CONCEPTUAL — sin factor de conversión calibrado",
+    "rango_kappa_Σ_eV": "< 0.0408",
+    "compatibilidad": "Compatible con KATRIN y límites cosmológicos"
+  },
+  "oscilaciones": {
+    "explicacion_cualitativa": "Diferencias de masa por distintos LI por sabor → natural",
+    "delta_m2_medido_eV2": [
+      7.5e-05,
+      0.0025
+    ],
+    "prediccion_cuantitativa": "PENDIENTE — requiere ΔLI conocido"
+  },
+  "conclusion_central": "El documento NEUTRINOS.pdf propone un origen físico para la masa del neutrino: no es intrínseca,\nsino que surge del desacoplamiento del sustrato Q-Σ. Esta idea es conceptualmente coherente,\nexplica naturalmente las diferencias de masa entre sabores, y es compatible con todos los\nlímites experimentales actuales (KATRIN, Planck, oscilaciones). La limitación principal es\nque la constante de acoplamiento κ_Σ aún no está calibrada, por lo que no hay predicción\nnumérica precisa. El trabajo pendiente es la calibración, no la refutación.",
+  "hash_integridad": "8529e5594f188b7dc8c1b8a0e3065b589a56387b3485f8c1d0aaec9ca0e896b3"
+}

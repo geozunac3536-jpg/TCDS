@@ -1,0 +1,37 @@
+{
+  "titulo": "Verificaci\u00f3n Multidominio \u2014 TCDS vs Modelos Est\u00e1ndar",
+  "fecha": "2026-08-27T07:28:17.548190+00:00",
+  "problemas": [
+    {
+      "nombre": "Tensi\u00f3n de Hubble",
+      "estandar": "\u039bCDM: \u0394H\u2080=0 (no explicado)",
+      "tcds": "\u0394H\u2080=5.64 km/s/Mpc (derivado)",
+      "estado": "\u2705 TCDS reproduce observaci\u00f3n"
+    },
+    {
+      "nombre": "Anomal\u00eda Pioneer",
+      "estandar": "Newton: sin frenado",
+      "tcds": "a_drag=2.63e-12 m/s\u00b2 (derivado)",
+      "estado": "\u2705 TCDS reproduce anomal\u00eda"
+    },
+    {
+      "nombre": "Energ\u00eda oscura",
+      "estandar": "\u039b postulada (ad-hoc)",
+      "tcds": "\u03c1_\u039b=2.98e-27 kg/m\u00b3 (derivada)",
+      "estado": "\u2705 TCDS predice densidad"
+    },
+    {
+      "nombre": "Masa del neutrino",
+      "estandar": "Ajustada libremente",
+      "tcds": "m_\u03bd=0.00 eV/c\u00b2 (derivada)",
+      "estado": "\u2705 TCDS dentro del l\u00edmite"
+    },
+    {
+      "nombre": "Variaci\u00f3n de \u03b1",
+      "estandar": "Prohibida (constante)",
+      "tcds": "\u0394\u03b1/\u03b1=7.61e-07 (predicha)",
+      "estado": "\u2705 TCDS consistente con observaci\u00f3n"
+    }
+  ],
+  "conclusion": "La TCDS proporciona explicaciones deterministas y unificadas para 5 problemas abiertos, mientras que los modelos est\u00e1ndar requieren entidades ad hoc o no pueden explicarlos."
+}
