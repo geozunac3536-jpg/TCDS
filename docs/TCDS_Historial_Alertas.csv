@@ -1,0 +1,6 @@
+fecha_ejecucion,zona_id,nombre,sismos_totales,LI_actual,LI_promedio_90d,LI_maximo,tendencia_LI,codigo_alerta
+2026-08-27 07:37:48,MEXICO_SUBDUCCION,México — Zona Subducción Placa Cocos,399,0.6436,0.7103,0.935,0.0076,AMARILLA
+2026-08-27 07:38:04,JAPON_TOHOKU,Japón — Arco de Japón,1135,0.5472,0.5813,0.6961,0.0248,NORMAL
+2026-08-27 07:38:20,TURQUIA_ANATOLIA,Turquía — Falla de Anatolia,439,0.7317,0.6902,0.9197,0.0992,AMARILLA
+2026-08-27 07:38:34,PERU_SUBDUCCION,Perú — Subducción Placa de Nazca,363,0.6774,0.6656,0.8513,-0.0131,AMARILLA
+2026-08-27 07:38:49,CHILE_SUBDUCCION,Chile — Subducción Placa de Nazca,507,0.6977,0.6687,0.8161,0.0035,AMARILLA

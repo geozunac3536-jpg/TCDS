@@ -1,0 +1,29 @@
+====================================================================================================
+TCDS-FINANCE v1.2 — REPORTE GLOBAL DE CRASHES FINANCIEROS
+Fecha de ejecución: 2026-08-27 07:40:11
+Umbrales: LI≥0.85 | ΔLI≥0.2
+Eventos omitidos (datos históricos limitados): Gran Depresión — Crash 1929, Burbuja Dotcom — Crash 2000
+====================================================================================================
+
+■ Lunes Negro — Crash 1987
+  Activos: 4 | Días: 1182
+  LI Máximo Pre: 0.7467 | Días antes del crash: 54
+  Caída ΔLI: -0.0463 | Alerta previa: False | Caída confirmada: False
+  Veredicto: ❌ NO CONFIRMADO — Patrón no observado
+
+■ Crisis Financiera Global — 2008
+  Activos: 8 | Días: 1257
+  LI Máximo Pre: 0.759 | Días antes del crash: 90
+  Caída ΔLI: -0.0619 | Alerta previa: False | Caída confirmada: False
+  Veredicto: ❌ NO CONFIRMADO — Patrón no observado
+
+■ Crash COVID-19 — 2020
+  Activos: 8 | Días: 626
+  LI Máximo Pre: 0.7572 | Días antes del crash: 38
+  Caída ΔLI: -0.1155 | Alerta previa: False | Caída confirmada: False
+  Veredicto: ❌ NO CONFIRMADO — Patrón no observado
+
+ESTADÍSTICAS GLOBALES:
+  Alertas pre-crash: 0/3 → 0.0%
+  Caídas post-crash: 0/3 → 0.0%
+  Tasa global de detección: 0.0%

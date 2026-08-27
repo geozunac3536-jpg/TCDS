@@ -1,0 +1,11 @@
+simbolo,valor,unidad,descripcion
+c,299792458.0,m/s,Velocidad de la luz en el vacío
+G,6.6743e-11,m³/kg/s²,Constante de gravitación universal
+LI(z),1.0,adimensional,Índice de Locking
+kappa,0.6,PENDIENTE,Variable kappa
+LI0,0.6,PENDIENTE,Variable LI0
+n,9.314138,adimensional,Exponente de no linealidad
+κ,-5.64,km/s/Mpc,Constante de estructura TCDS
+LI_0,0.6,PENDIENTE,Variable LI_0
+H0,67.4,km/s/Mpc,Parámetro de Hubble presente
+φ,0.0,J/m³,Invariante de acoplamiento (Q·Σ)
