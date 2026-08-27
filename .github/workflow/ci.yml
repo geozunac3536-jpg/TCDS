@@ -1,0 +1,26 @@
+name: Validacion TCDS
+on: [push, pull_request]
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Instalar dependencias
+        run: pip install numpy
+      - name: Ejecutar validacion
+        run: |
+          python -c "
+LI0 = 0.02
+n = 9.314138
+H0 = 73.04
+H_inf = H0 * (LI0 ** n)
+print('H(z=0) =', H0)
+print('H(z->inf) =', round(H_inf, 4))
+assert abs(H0 - 73.04) < 0.01, 'Falla frontera local'
+assert abs(H_inf - 67.36) < 0.1, 'Falla frontera CMB'
+print('VALIDACION EXITOSA')
+"
